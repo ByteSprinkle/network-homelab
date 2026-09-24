@@ -112,7 +112,7 @@ The first lost packet per destination is expected: it is spent on ARP resolution
 
 **Goal:** Add a fourth VLAN for guests, block its access to the three internal networks with an ACL, translate all internal networks to one WAN address with PAT, and lock one switch port to a single device with port security.
 
-![Lab 02 topology](docs/lab02-topology.png)
+![Lab 02 topology](/workspaces/network-homelab/lab02-topology.png)
 
 *Logical view in Packet Tracer: Router0 (2911) with Switch0 (2960-24TT), PC0–PC3 in VLANs 10/20/30/40, PC4 on router port Gi0/1 simulating the internet.*
 
